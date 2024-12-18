@@ -25,7 +25,7 @@ function HomePage() {
       }
 
       const { data } = await axios.post(
-        "https://zerodha-server.onrender.com",
+        "https://zerodha-clone-backend-u9w5.onrender.com",
         {},
         { withCredentials: true }
       );
