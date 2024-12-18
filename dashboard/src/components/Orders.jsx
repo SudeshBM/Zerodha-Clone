@@ -6,7 +6,7 @@ function Orders() {
   const [allOrders, setAllOrders] = useState([]);
 
   useEffect(() => {
-    axios.get("https://zerodha-server.onrender.com/allOrders").then((res) => {
+    axios.get("https://zerodha-clone-backend-u9w5.onrender.com/allOrders").then((res) => {
       setAllOrders(res.data);
     });
   }, []);
